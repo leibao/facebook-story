@@ -7,12 +7,36 @@
 //
 
 #import "AppDelegate.h"
+#import "HerViewController.h"
+#import "StoryViewController.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+   // StoryViewController *vc = [[StoryViewController alloc] init];
+    
+    HerViewController *vc = [[HerViewController alloc] init];
+    
+   // UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    
+   // UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+
+    
+    
+  // self.window.rootViewController = navigationController;
+    //self.window.rootViewController = tabBarController;
+    UINavigationController *navVC  = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = navVC;
+    
+    navVC.navigationBar.barTintColor = [UIColor colorWithRed:68.0f/255.0f green:99.0f/255.0f blue:161.0f/255.0f alpha:1.0];
+//     navVC.navigationBar.translucent = NO;
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

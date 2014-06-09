@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3735161019462AC600A57E65 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735160E19462AC600A57E65 /* StoryViewController.m */; };
+		3735161119462AC600A57E65 /* StoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3735160F19462AC600A57E65 /* StoryViewController.xib */; };
 		37DE8A3819457EF6000C1F16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DE8A3719457EF6000C1F16 /* Foundation.framework */; };
 		37DE8A3A19457EF6000C1F16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DE8A3919457EF6000C1F16 /* CoreGraphics.framework */; };
 		37DE8A3C19457EF6000C1F16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DE8A3B19457EF6000C1F16 /* UIKit.framework */; };
@@ -19,6 +21,8 @@
 		37DE8A5319457EF6000C1F16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DE8A3B19457EF6000C1F16 /* UIKit.framework */; };
 		37DE8A5B19457EF6000C1F16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37DE8A5919457EF6000C1F16 /* InfoPlist.strings */; };
 		37DE8A5D19457EF6000C1F16 /* facebook_storyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DE8A5C19457EF6000C1F16 /* facebook_storyTests.m */; };
+		37DE8A69194580A4000C1F16 /* HerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DE8A67194580A4000C1F16 /* HerViewController.m */; };
+		37DE8A6A194580A4000C1F16 /* HerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DE8A68194580A4000C1F16 /* HerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3735160D19462AC600A57E65 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		3735160E19462AC600A57E65 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		3735160F19462AC600A57E65 /* StoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryViewController.xib; sourceTree = "<group>"; };
 		37DE8A3419457EF6000C1F16 /* facebook-story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DE8A3719457EF6000C1F16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37DE8A3919457EF6000C1F16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +55,9 @@
 		37DE8A5819457EF6000C1F16 /* facebook-storyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "facebook-storyTests-Info.plist"; sourceTree = "<group>"; };
 		37DE8A5A19457EF6000C1F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37DE8A5C19457EF6000C1F16 /* facebook_storyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebook_storyTests.m; sourceTree = "<group>"; };
+		37DE8A66194580A4000C1F16 /* HerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HerViewController.h; sourceTree = "<group>"; };
+		37DE8A67194580A4000C1F16 /* HerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HerViewController.m; sourceTree = "<group>"; };
+		37DE8A68194580A4000C1F16 /* HerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				37DE8A4719457EF6000C1F16 /* AppDelegate.m */,
 				37DE8A4919457EF6000C1F16 /* Images.xcassets */,
 				37DE8A3E19457EF6000C1F16 /* Supporting Files */,
+				37DE8A66194580A4000C1F16 /* HerViewController.h */,
+				37DE8A67194580A4000C1F16 /* HerViewController.m */,
+				37DE8A68194580A4000C1F16 /* HerViewController.xib */,
+				3735160D19462AC600A57E65 /* StoryViewController.h */,
+				3735160E19462AC600A57E65 /* StoryViewController.m */,
+				3735160F19462AC600A57E65 /* StoryViewController.xib */,
 			);
 			path = "facebook-story";
 			sourceTree = "<group>";
@@ -191,6 +207,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Yahoo;
 				TargetAttributes = {
+					37DE8A3319457EF6000C1F16 = {
+						DevelopmentTeam = 2ARNJY38FW;
+					};
 					37DE8A4E19457EF6000C1F16 = {
 						TestTargetID = 37DE8A3319457EF6000C1F16;
 					};
@@ -219,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3735161119462AC600A57E65 /* StoryViewController.xib in Resources */,
 				37DE8A4219457EF6000C1F16 /* InfoPlist.strings in Resources */,
 				37DE8A4A19457EF6000C1F16 /* Images.xcassets in Resources */,
+				37DE8A6A194580A4000C1F16 /* HerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3735161019462AC600A57E65 /* StoryViewController.m in Sources */,
 				37DE8A4819457EF6000C1F16 /* AppDelegate.m in Sources */,
+				37DE8A69194580A4000C1F16 /* HerViewController.m in Sources */,
 				37DE8A4419457EF6000C1F16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,10 +380,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "facebook-story/facebook-story-Prefix.pch";
 				INFOPLIST_FILE = "facebook-story/facebook-story-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -370,10 +398,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "facebook-story/facebook-story-Prefix.pch";
 				INFOPLIST_FILE = "facebook-story/facebook-story-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,6 +470,7 @@
 				37DE8A6219457EF6000C1F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37DE8A6319457EF6000C1F16 /* Build configuration list for PBXNativeTarget "facebook-storyTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +479,7 @@
 				37DE8A6519457EF6000C1F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
